@@ -248,3 +248,69 @@ h2 {
     color: #ffffff;
 
 }
+
+
+
+@media (min-width: 810px) and (max-width: 1199px) {
+    .container {
+        max-width: 600px;
+        width: 100%;
+    }
+
+    .prompt-container {
+        max-width: 600px;
+        width: 100%;
+    }
+
+    .prompt-box {
+        width: 100%;
+    }
+}
+
+@media (max-width: 809px) {
+    .container {
+        max-width: 500px;
+        width: 100%;
+    }
+
+    .prompt-container {
+        max-width: 500px;
+        width: 100%;
+    }
+
+    .prompt-box {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .header-title h1 {
+        font-size: 50px;
+    }
+
+    .header-subtitle h2 {
+        text-align: center;
+    }
+
+    .key-stroke, .or {
+        display: none;
+    }
+
+    .prompt-buttons {
+        justify-content: center;
+    }
+
+    .prompt-container {
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .prompt-box {
+        width: 100%;
+    }
+}
